@@ -149,7 +149,7 @@ export default function Hero() {
               >
                 <Button
                     size="lg"
-                    className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 group"
+                    className="bg-gradient-to-r cursor-pointer from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 group"
                     onClick={() => scrollToSection("projects")}
                 >
                   {t("hero.viewWork")}
@@ -158,7 +158,7 @@ export default function Hero() {
                 <Button
                     size="lg"
                     variant="outline"
-                    className="border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
+                    className="border-primary/30 cursor-pointer hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
                     onClick={() => scrollToSection("contact")}
                 >
                   {t("hero.getInTouch")}
@@ -178,7 +178,7 @@ export default function Hero() {
                     className="rounded-full border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
                     asChild
                 >
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/SimoSabev" target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4" />
                   </a>
                 </Button>
@@ -188,7 +188,7 @@ export default function Hero() {
                     className="rounded-full border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
                     asChild
                 >
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://linkedin.com/in/simeon-sabev-279a892a9" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-4 w-4" />
                   </a>
                 </Button>

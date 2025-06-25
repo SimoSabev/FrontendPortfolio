@@ -1,6 +1,5 @@
 "use client"
 
-import {useState} from "react"
 import {motion} from "framer-motion"
 import {Card, CardContent} from "@/components/ui/card"
 import {Button} from "@/components/ui/button"
@@ -11,6 +10,7 @@ import azion from "@/public/azion.png"
 import aikido from "@/public/shiseikan.png"
 import ilios from "@/public/ilios.png"
 import yacht from "@/public/yachtllywood.png"
+import Image from "next/image"
 
 export default function Projects() {
     const {t} = useLanguage()
@@ -100,12 +100,15 @@ export default function Projects() {
                                         <div
                                             className="relative h-48 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent overflow-hidden group-hover:scale-105 transition-transform duration-500">
 
-                                          <img
-                                                src={project.image.src} // Referencing each project's specific image
+                                            <Image
+                                                src={project.image.src}
                                                 alt={`Screenshot of ${project.title}`}
+                                                width={800}
+                                                height={600}
                                                 className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
                                                 loading="lazy"
                                             />
+
                                             {project.featured && (
                                                 <div className="absolute top-4 right-4 z-10">
                                                     <Badge

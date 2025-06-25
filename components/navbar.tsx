@@ -88,9 +88,19 @@ export default function Navbar() {
               >
                 {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
               </Button>
-              <Button className="cursor-pointer bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300">
-                <Download className="h-4 w-4 mr-2" />
-                {t("nav.resume")}
+              <Button
+                  className="cursor-pointer bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300"
+                  asChild
+              >
+                <a
+                    href="/SimeonSabevFrontend.pdf"
+                    download="SimeonSabevFrontend.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <Download className="h-4 w-4 mr-2" />
+                  {t("nav.resume")}
+                </a>
               </Button>
             </nav>
 
@@ -135,9 +145,19 @@ export default function Navbar() {
                         {link.name}
                       </button>
                   ))}
-                  <Button className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground">
-                    <Download className="h-4 w-4 mr-2" />
-                    {t("nav.resume")}
+                  <Button
+                      className="cursor-pointer bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300"
+                      asChild
+                  >
+                    <a
+                        href="/SimeonSabevFrontend.pdf"
+                        download="SimeonSabevFrontend.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      {t("nav.resume")}
+                    </a>
                   </Button>
                 </nav>
               </div>

@@ -93,7 +93,7 @@ const translations = {
         "projects.azion.desc":
             "Modern business platform with responsive design, SEO optimization, and performance-focused architecture for enhanced user engagement.",
         "projects.yacht.desc":
-            "Luxury yacht services website featuring high-end design, booking system, and gallery showcase for premium maritime experiences.",
+            "A luxury yacht services website featuring a high-end design, seamless booking system, and a stunning gallery showcase for unforgettable premium maritime experiences.",
 
         // Contact
         "contact.title": "Let's Connect",
