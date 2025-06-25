@@ -29,7 +29,7 @@ const translations = {
 
         // Hero
         "hero.available": "Available for new opportunities",
-        "hero.role": "Front End Developer",
+        "hero.role": "FrontEnd Developer",
         "hero.description":
             "I'm a professional front-end developer with over two years of experience crafting beautiful, responsive, and highly functional web applications. I specialize in modern technologies and user-centered design.",
         "hero.viewWork": "View My Work",
@@ -124,7 +124,7 @@ const translations = {
 
         // Hero
         "hero.available": "Достъпен за нови възможности",
-        "hero.role": "Front End Разработчик",
+        "hero.role": "FrontEnd Разработчик",
         "hero.description":
             "Аз съм професионален front-end разработчик с над две години опит в създаването на красиви, отзивчиви и високофункционални уеб приложения. Специализирам в модерни технологии и дизайн, центриран върху потребителя.",
         "hero.viewWork": "Виж работата ми",
