@@ -63,7 +63,7 @@ export default function Education() {
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="h-4 w-4 text-primary" />
-                      <span>Sofia, Bulgaria</span>
+                      <span>Varna, Bulgaria</span>
                     </div>
                   </div>
 

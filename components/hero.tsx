@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Github, Linkedin, Mail, Phone, Sparkles, Code, Palette } from "lucide-react"
 import { motion } from "framer-motion"
+import simo from "@/public/simo.jpg"
 
 export default function Hero() {
   const [text, setText] = useState("")
@@ -95,7 +96,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="text-lg text-muted-foreground leading-relaxed max-w-2xl"
             >
-              I'm a professional front-end developer with over two years of experience crafting beautiful, responsive,
+              I&apos;m a professional front-end developer with over two years of experience crafting beautiful, responsive,
               and highly functional web applications. I specialize in modern technologies and user-centered design.
             </motion.p>
 
@@ -146,7 +147,7 @@ export default function Hero() {
             >
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 group"
+                className="bg-gradient-to-r from-primary cursor-pointer to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 group"
                 onClick={() => scrollToSection("projects")}
               >
                 View My Work
@@ -155,7 +156,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
+                className="border-primary/30 hover:bg-primary/10 cursor-pointer hover:border-primary/50 transition-all duration-300"
                 onClick={() => scrollToSection("contact")}
               >
                 Get In Touch
@@ -175,7 +176,7 @@ export default function Hero() {
                 className="rounded-full border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
                 asChild
               >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/SimoSabev" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                 </a>
               </Button>
@@ -185,7 +186,7 @@ export default function Hero() {
                 className="rounded-full border-primary/30 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
                 asChild
               >
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/simeon-sabev-279a892a9" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                 </a>
               </Button>
@@ -203,7 +204,7 @@ export default function Hero() {
               <div className="w-72 h-72 sm:w-96 sm:h-96 rounded-3xl overflow-hidden advanced-card relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/simo.jpg"
                   alt="Simeon Sabev - Front End Developer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

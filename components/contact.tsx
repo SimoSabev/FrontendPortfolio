@@ -17,7 +17,7 @@ export default function Contact() {
       label: "Phone",
       value: "+359 88 503 1865",
       href: "tel:+359885031865",
-      description: "Available Mon-Fri, 9AM-6PM",
+      description: "Available Every Day, 11AM-9PM",
     },
     {
       icon: Mail,
@@ -45,10 +45,10 @@ export default function Contact() {
             <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent w-20"></div>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ready to bring your ideas to life? Let's discuss your next project
+            Ready to bring your ideas to life? Let&apos;s discuss your next project
           </p>
         </motion.div>
 
@@ -117,7 +117,7 @@ export default function Contact() {
                 Ready to Start Your Project?
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                I'm always excited to work on new projects and help bring innovative ideas to life. Let's discuss how we
+                I&apos;m always excited to work on new projects and help bring innovative ideas to life. Let&apos;s discuss how we
                 can create something amazing together.
               </p>
               <Button
