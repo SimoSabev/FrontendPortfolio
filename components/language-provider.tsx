@@ -77,7 +77,7 @@ const translations = {
         "education.school": 'ITPG "Academic Blagovest Sendov" city Varna',
         "education.level": "Senior High School",
         "education.period": "2022 - Present",
-        "education.location": "Sofia, Bulgaria",
+        "education.location": "Varna, Bulgaria",
         "education.description":
             "Currently pursuing senior high school education with a focus on technology and programming, building a strong foundation for a career in web development and software engineering.",
 
@@ -174,7 +174,7 @@ const translations = {
         "education.school": 'ПГКМКС "Академик Благовест Сендов" гр.Варна',
         "education.level": "Професионална гимназия",
         "education.period": "2022 - настоящ момент",
-        "education.location": "София, България",
+        "education.location": "Варна, България",
         "education.description":
             "В момента следвам средно образование с фокус върху технологиите и програмирането, изграждайки солидна основа за кариера в уеб разработката и софтуерното инженерство.",
 
