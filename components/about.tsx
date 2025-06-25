@@ -3,8 +3,12 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { User, Target, Lightbulb, Heart } from "lucide-react"
+import { useLanguage } from "@/components/language-provider"
 
 export default function About() {
+
+  const { t } = useLanguage()
+
   const fadeIn = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0 },
@@ -13,18 +17,18 @@ export default function About() {
   const features = [
     {
       icon: Target,
-      title: "Precision & Quality",
-      description: "Every pixel matters. I focus on creating pixel-perfect designs with attention to detail.",
+      title: t("about.precision.title"),
+      description: t("about.precision.desc"),
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "Always exploring new technologies and methodologies to deliver cutting-edge solutions.",
+      title: t("about.innovation.title"),
+      description: t("about.innovation.desc"),
     },
     {
       icon: Heart,
-      title: "Passion-Driven",
-      description: "Genuinely passionate about creating exceptional user experiences that make a difference.",
+      title: t("about.innovation.title"),
+      description: t("about.innovation.desc"),
     },
   ]
 
@@ -45,11 +49,9 @@ export default function About() {
             <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent w-20"></div>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent mb-6">
-            About Me
+            {t("about.title")}
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Crafting digital experiences with passion and precision
-          </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t("about.subtitle")}</p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -64,18 +66,11 @@ export default function About() {
               <CardContent className="p-8">
                 <div className="space-y-6">
                   <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
-                    Professional Journey
+                    {t("about.journey")}
                   </h3>
                   <div className="prose prose-neutral dark:prose-invert max-w-none">
-                    <p className="text-base leading-relaxed text-muted-foreground">
-                      I&apos;m a professional front-end developer with over two years of experience in the industry. I
-                      specialize in building beautiful, clean, and highly functional websites and applications, whether
-                      through custom code or platforms.
-                    </p>
-                    <p className="text-base leading-relaxed text-muted-foreground">
-                      My focus is on creating user-friendly, responsive, and visually appealing websites that provide
-                      exceptional user experiences across all devices and platforms.
-                    </p>
+                    <p className="text-base leading-relaxed text-muted-foreground">{t("about.description1")}</p>
+                    <p className="text-base leading-relaxed text-muted-foreground">{t("about.description2")}</p>
                   </div>
                 </div>
               </CardContent>
