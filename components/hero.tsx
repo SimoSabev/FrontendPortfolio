@@ -37,7 +37,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen relative overflow-hidden gradient-bg grid-bg">
-      <div className="container mx-auto px-6 py-20 relative z-10">
+      <div className="container mx-auto px-6 md:px-0 py-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center min-h-screen pt-20">
           {/* Left Column - Main Content */}
           <motion.div

@@ -53,7 +53,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-32 relative gradient-bg grid-bg">
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 md:px-0 relative z-10">
         <motion.div
           initial="hidden"
           whileInView="visible"
