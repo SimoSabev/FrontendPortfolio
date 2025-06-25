@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { User, Target, Lightbulb, Heart } from "lucide-react"
+import { User, Target, Lightbulb, } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export default function About() {
