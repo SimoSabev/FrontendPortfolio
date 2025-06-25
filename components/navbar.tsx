@@ -47,7 +47,7 @@ export default function Navbar() {
         scrolled ? "glass-morphism shadow-2xl border-b border-border/20" : "bg-transparent",
       )}
     >
-      <div className="container mx-auto py-4">
+      <div className="container mx-auto px-6 md:px-0 py-4">
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("home")}
