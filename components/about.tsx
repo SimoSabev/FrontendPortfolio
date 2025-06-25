@@ -25,11 +25,6 @@ export default function About() {
       title: t("about.innovation.title"),
       description: t("about.innovation.desc"),
     },
-    {
-      icon: Heart,
-      title: t("about.innovation.title"),
-      description: t("about.innovation.desc"),
-    },
   ]
 
   return (
