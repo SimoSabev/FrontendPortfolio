@@ -68,7 +68,7 @@ export default function About() {
                   </h3>
                   <div className="prose prose-neutral dark:prose-invert max-w-none">
                     <p className="text-base leading-relaxed text-muted-foreground">
-                      I'm a professional front-end developer with over two years of experience in the industry. I
+                      I&apos;m a professional front-end developer with over two years of experience in the industry. I
                       specialize in building beautiful, clean, and highly functional websites and applications, whether
                       through custom code or platforms.
                     </p>

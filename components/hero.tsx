@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Github, Linkedin, Mail, Phone, Sparkles, Code, Palette } from "lucide-react"
 import { motion } from "framer-motion"
-import simo from "@/public/simo.jpg"
+import Image from "next/image"
+
 
 export default function Hero() {
   const [text, setText] = useState("")
@@ -203,10 +204,14 @@ export default function Hero() {
             <div className="relative">
               <div className="w-72 h-72 sm:w-96 sm:h-96 rounded-3xl overflow-hidden advanced-card relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <img
-                  src="/simo.jpg"
-                  alt="Simeon Sabev - Front End Developer"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                <Image
+                    src="/simo.jpg"
+                    alt="Simeon Sabev - Front End Developer"
+                    width={500}
+                    height={500}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    priority
+                    quality={90}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
               </div>

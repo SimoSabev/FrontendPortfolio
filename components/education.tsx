@@ -51,7 +51,7 @@ export default function Education() {
                 <div className="flex-1 space-y-4">
                   <div>
                     <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
-                      ITPG "Academic Blagovest Sendov"
+                      ITPG &quot;Academic Blagovest Sendov&quot;
                     </h3>
                     <p className="text-lg text-muted-foreground font-medium">Senior High School</p>
                   </div>

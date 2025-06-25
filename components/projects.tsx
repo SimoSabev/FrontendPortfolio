@@ -4,11 +4,13 @@ import {motion} from "framer-motion"
 import {Card, CardContent} from "@/components/ui/card"
 import {Button} from "@/components/ui/button"
 import {Badge} from "@/components/ui/badge"
-import {ExternalLink, Folder, Globe, Calendar, Star} from "lucide-react"
+import {ExternalLink, Folder, Calendar, Star} from "lucide-react"
 import azion from "@/public/azion.png"
 import aikido from "@/public/shiseikan.png"
 import ilios from "@/public/ilios.png"
 import yacht from "@/public/yachtllywood.png"
+import Image from "next/image"
+
 
 export default function Projects() {
   const fadeIn = {
@@ -97,11 +99,14 @@ export default function Projects() {
                   <Card className="advanced-card group h-full overflow-hidden">
                     <CardContent className="p-0">
                       <div className="relative">
-                        <img
+                        <Image
                             src={project.image}
                             alt={project.title}
+                            width={500} // Replace with the actual width or adjust based on your layout
+                            height={192} // Replace with the actual height (192px corresponds to "h-48")
                             className="h-48 w-full object-cover"
                         />
+
                         <div
                             className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent">
                         </div>
